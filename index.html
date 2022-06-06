@@ -8,38 +8,8 @@
 </head>
 <body>
     <div id="app">
-        <!-- <h4 v-for="items in emailNumber">{{ emailNumber }}</h4> -->
-        <ul style="list-style-type: none;">
-            <li>
-                {{ emailNumber }}
-            </li>
-            <li>
-                {{ emailNumber }}
-            </li>
-            <li>
-                {{ emailNumber }}
-            </li>
-            <li>
-                {{ emailNumber }}
-            </li>
-            <li>
-                {{ emailNumber }}
-            </li>
-            <li>
-                {{ emailNumber }}
-            </li>
-            <li>
-                {{ emailNumber }}
-            </li>
-            <li>
-                {{ emailNumber }}
-            </li>
-            <li>
-                {{ emailNumber }}
-            </li>
-            <li>
-                {{ emailNumber }}
-            </li>
+        <ul v-for="items in listEmail">
+           {{ items }}
         </ul>
     </div>
     
